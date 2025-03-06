@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`Project này đang chạy trên post ${port}`)
+  console.log(`Server BE đang chạy trên PORT:  ${port}`)
 })
 
 //anh thinh dep trai qua ta
